@@ -8,7 +8,7 @@ import * as RxJSOperators from 'rxjs/operators';
 //       };
 //   }
 
-rxjs = {
+self.ctx.rxjs = {
           ...RxJS,
           ...RxJSOperators
         };
