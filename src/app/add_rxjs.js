@@ -12,3 +12,5 @@ self.ctx.rxjs = {
           ...RxJS,
           ...RxJSOperators
         };
+
+console.log('resource works');
