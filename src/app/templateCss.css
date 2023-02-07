@@ -1,0 +1,29 @@
+#container {
+  overflow: auto;
+}
+
+.tooltip {
+  display:none;
+  padding: 10px;
+  text-align:center;
+  position: absolute;
+  background-color: lightgray;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  border-collapse: collapse;
+  white-space: nowrap;
+  color:grey;
+}
+
+.tooltipKey {
+  font-size: 2rem;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tooltipValue {
+  font-size: 2rem;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+}
